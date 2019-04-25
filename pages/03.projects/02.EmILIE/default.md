@@ -1,10 +1,16 @@
 ---
-title: Home
+title: EmILIE
 body_classes: title-center title-h1h2
 ---
 
-# Say Hello to Grav!
-## installation successful...
+# EmILIE
+## sEnsing ImpLicit Input and Emotions
+
+![Logo Regione Sardegna e Fondazione di Sardegna](img/emilie-logo.png)
+
+
+Lo scopo del progetto è quello di coordinare un insieme di sensori di livello consumer, 
+che permettano un’interazione prossemica con i diversi dispositivi e siano in grado di determinare la condizione affettiva dell’utente. In questo modo le applicazioni saranno in grado di sfruttare in modo opportunistico i valori stimati, aumentando le capacità dell’hardware del dispositivo, tramite la condivisione delle informazioni.
 
 Congratulations! You have installed the **Base Grav Package** that provides a **simple page** and the default **Quark** theme to get you started.
 
