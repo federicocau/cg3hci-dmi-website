@@ -9,8 +9,19 @@ body_classes: title-center title-h1h2
 ![Logo Regione Sardegna e Fondazione di Sardegna](img/emilie-logo.png)
 
 
-Lo scopo del progetto è quello di coordinare un insieme di sensori di livello consumer, 
-che permettano un’interazione prossemica con i diversi dispositivi e siano in grado di determinare la condizione affettiva dell’utente. In questo modo le applicazioni saranno in grado di sfruttare in modo opportunistico i valori stimati, aumentando le capacità dell’hardware del dispositivo, tramite la condivisione delle informazioni.
+Lo scopo del progetto è quello di coordinare un insieme di sensori di 
+livello consumer, per la coordinazione di un’interazione prossemica 
+con i diversi dispositivi, determinando inoltre la condizione affettiva 
+dell’utente. In questo modo, le applicazioni saranno in grado di 
+sfruttare in modo opportunistico i valori stimati, aumentando 
+le capacità dell’hardware del dispositivo, tramite la condivisione 
+delle informazioni.
+
+Il progetto è stato finanziato dalla [Regione Autonoma della Sardegna](https://www.regione.sardegna.it/) 
+e dalla [Fondazione di Sardegna](https://www.fondazionedisardegna.it/).
+
+
+
 
 Congratulations! You have installed the **Base Grav Package** that provides a **simple page** and the default **Quark** theme to get you started.
 
