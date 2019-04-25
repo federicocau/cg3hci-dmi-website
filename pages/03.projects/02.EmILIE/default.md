@@ -22,38 +22,30 @@ e dalla [Fondazione di Sardegna](https://www.fondazionedisardegna.it/).
 
 
 
+##Pubblicazioni supportate dal progetto
+* Barbara Pes. _Handling class imbalance in high-dimensional biomedical datasets._ 
+28th IEEE International Conference on Enabling Technologies: 
+Infrastructure for Collaborative Enterprises (WETICE 2019), June 12-14, 2019,
+Capri (Napoli), Italy, to appear.
+* Barbara Pes. _Ensemble feature selection for high-dimensional data: a 
+stability analysis across multiple domains._ Neural Computing and 
+Applications, 2019.
+  [10.1007/s00521-019-04082-3](https://doi.org/10.1007/s00521-019-04082-3).
+* Assunta Matassa, Daniele Riboni. _Reasoning with Smart Objects’ 
+  Affordance for Personalized Behavior Monitoring in Pervasive Information 
+  Systems._ Knowledge and Information Systems, Springer, 2019. To appear.
+* Daniele Riboni, _Opportunistic Pervasive Computing: Adaptive Context 
+Recognition and Interfaces._ 
+CCF Transactions on Pervasive Computing and Interaction, Springer, 2019. 
+[10.1007/s42486-018-00004-9](https://doi.org/10.1007/s42486-018-00004-9).
+* Gabriele Civitarese, Claudio Bettini, Timo Sztyler, Daniele Riboni, 
+  Heiner Stuckenschmidt, _NECTAR: Knowledge-based Collaborative Active 
+  Learning for Activity Recognition._ In Proceedings of the 2018 IEEE 
+  International Conference on Pervasive Computing and Communications 
+  (PerCom), IEEE Computer Society, 2018.
+* Barbara Pes. _Evaluating Feature Selection Robustness on High-Dimensional
+ Data._ 13th International Conference on Hybrid Artificial Intelligence 
+ Systems (HAIS 2018), Oviedo, Spain, June 20-22, 2018, LNCS, vol 10870, 
+ pp 235-247, Springer.
+ [10.1007/978-3-319-92639-1_20](https://doi.org/10.1007/978-3-319-92639-1_20).
 
-Congratulations! You have installed the **Base Grav Package** that provides a **simple page** and the default **Quark** theme to get you started.
-
-!! If you see a **404 Error** when you click `Typography` in the menu, please refer to the [troubleshooting guide](http://learn.getgrav.org/troubleshooting/page-not-found).
-
-### Find out all about Grav
-
-* Learn about **Grav** by checking out our dedicated [Learn Grav](http://learn.getgrav.org) site.
-* Download **plugins**, **themes**, as well as other Grav **skeleton** packages from the [Grav Downloads](http://getgrav.org/downloads) page.
-* Check out our [Grav Development Blog](http://getgrav.org/blog) to find out the latest goings on in the Grav-verse.
-
-!!! If you want a more **full-featured** base install, you should check out [**Skeleton** packages available in the downloads](http://getgrav.org/downloads).
-
-### Edit this Page
-
-To edit this page, simply navigate to the folder you installed **Grav** into, and then browse to the `user/pages/01.home` folder and open the `default.md` file in your [editor of choice](http://learn.getgrav.org/basics/requirements).  You will see the content of this page in [Markdown format](http://learn.getgrav.org/content/markdown).
-
-### Create a New Page
-
-Creating a new page is a simple affair in **Grav**.  Simply follow these simple steps:
-
-1. Navigate to your pages folder: `user/pages/` and create a new folder.  In this example, we will use [explicit default ordering](http://learn.getgrav.org/content/content-pages) and call the folder `02.mypage`.
-2. Launch your text editor and paste in the following sample code:
-
-        ---
-        title: My New Page
-        ---
-        # My New Page!
-
-        This is the body of **my new page** and I can easily use _Markdown_ syntax here.
-
-3. Save this file in the `user/pages/02.mypage/` folder as `default.md`. This will tell **Grav** to render the page using the **default** template.
-4. That is it! Reload your browser to see your new page in the menu.
-
-! NOTE: The page will automatically show up in the Menu after the "Home" menu item. If you wish to change the name that shows up in the Menu, simple add: `menu: My Page` between the dashes in the page content. This is called the YAML front matter, and it is where you configure page-specific options.
