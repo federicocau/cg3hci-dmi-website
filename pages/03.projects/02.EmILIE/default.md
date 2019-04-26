@@ -22,7 +22,11 @@ e dalla [Fondazione di Sardegna](https://www.fondazionedisardegna.it/).
 
 
 
-##Pubblicazioni supportate dal progetto
+## <a name="pubblicazioni"></a> Pubblicazioni supportate dal progetto
+* Roberto Cocco, Maurizio Atzori, Carlo Zaniolo. _Machine Learning of SPARQL Templates for 
+Question Answering over LinkedSpending._ 28th IEEE International 
+Conference on Enabling Technologies: Infrastructure for 
+Collaborative Enterprises (IEEE WETICE 2019), DEW Track (DEW 2019) (2019)
 * Barbara Pes. _Handling class imbalance in high-dimensional biomedical datasets._ 
 28th IEEE International Conference on Enabling Technologies: 
 Infrastructure for Collaborative Enterprises (WETICE 2019), June 12-14, 2019,
@@ -48,4 +52,20 @@ CCF Transactions on Pervasive Computing and Interaction, Springer, 2019.
  Systems (HAIS 2018), Oviedo, Spain, June 20-22, 2018, LNCS, vol 10870, 
  pp 235-247, Springer.
  [10.1007/978-3-319-92639-1_20](https://doi.org/10.1007/978-3-319-92639-1_20).
-
+ * Carlo Zaniolo, Shi Gao, Maurizio Atzori, Muhao Chen, Jiaqi Gu. 
+ _User-Friendly Temporal Queries on Historical Knowledge Bases_
+  Information and Computation, Time 2015 special issue, Elsevier (2018)
+* Maurizio Atzori, Simone Balloccu and Andrea Bellanti. _Unsupervised Singleton 
+Expansion from Free Text._
+ICSC 2018 - 10th IEEE International Conference on Semantic Computing (2018)
+* Mattia Atzeni, Maurizio Atzori. _CodeOntology: RDF-ization of Source Code._  
+ISWC 2017 - Proceedings of the 16th International Semantic Web Conference, 
+Resource Track (2017)
+* Atzeni Mattia, Maurizio Atzori. _CodeOntology: Querying Source Code in 
+a Semantic Framework._ ISWC 2017 - Proceedings of the 16th International 
+Semantic Web Conference, Demo Paper (2017)
+* Maurizio Atzori, Ludovico Boratto, Lucio Davide Spano. _Towards Chatbots 
+as Recommendation Interfaces._ 2nd Workshop on Engineering Computer-Human 
+Interaction in Recommender Systems (EnCHIReS 2017) part of 9th ACM 
+SIGCHI Symposium on Engineering Interactive Computing Systems (EICS 2017), 
+26-29 June, 2017 Lisbon, Portugal (2017)
