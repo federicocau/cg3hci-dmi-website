@@ -52,7 +52,7 @@ CCF Transactions on Pervasive Computing and Interaction, Springer, 2019.
  Systems (HAIS 2018), Oviedo, Spain, June 20-22, 2018, LNCS, vol 10870, 
  pp 235-247, Springer.
  [10.1007/978-3-319-92639-1_20](https://doi.org/10.1007/978-3-319-92639-1_20).
- * Carlo Zaniolo, Shi Gao, Maurizio Atzori, Muhao Chen, Jiaqi Gu. 
+* Carlo Zaniolo, Shi Gao, Maurizio Atzori, Muhao Chen, Jiaqi Gu. 
  _User-Friendly Temporal Queries on Historical Knowledge Bases_
   Information and Computation, Time 2015 special issue, Elsevier (2018)
 * Maurizio Atzori, Simone Balloccu and Andrea Bellanti. _Unsupervised Singleton 
