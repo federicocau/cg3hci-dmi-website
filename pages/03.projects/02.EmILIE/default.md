@@ -1,6 +1,6 @@
 ---
 title: EmILIE
-body_classes: title-center title-h1
+
 ---
 
 # EmILIE
