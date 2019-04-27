@@ -3,8 +3,10 @@ title: EmILIE
 
 ---
 
+<div style="text-align: center">
 # EmILIE
 ## sEnsing ImpLicit Input and Emotions
+</div>
 
 ![Logo Regione Sardegna e Fondazione di Sardegna](img/emilie-logo.png)
 
