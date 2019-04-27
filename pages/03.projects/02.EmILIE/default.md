@@ -10,7 +10,7 @@ title: EmILIE
 </header>
 </div>
 
-![Logo Regione Sardegna e Fondazione di Sardegna](img/emilie-logo.png){ width="150px"}
+![Logo Regione Sardegna e Fondazione di Sardegna](img/emilie-logo.png)
 
 
 Lo scopo del progetto è quello di coordinare un insieme di sensori di 
