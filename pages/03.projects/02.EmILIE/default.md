@@ -20,9 +20,39 @@ delle informazioni.
 Il progetto è stato finanziato dalla [Regione Autonoma della Sardegna](https://www.regione.sardegna.it/) 
 e dalla [Fondazione di Sardegna](https://www.fondazionedisardegna.it/).
 
+##Sommario
+1. [Risultati del progetto](#risultati)
+2. [Il gruppo di ricerca](#gruppo) 
+3. [Pubblicazioni](#pubblicazioni)
 
+## <a name="risultati"></a> Risultati del progetto
+
+## <a name="gruppo"></a> Il gruppo di ricerca
+Il progetto è stato realizzato all'interno del [Dipartimento di Matematica e Informatica](https://dmi.unica.it/).
+Il gruppo di ricerca è formato dai seguenti professori:
+* **Lucio Davide Spano.** Interazione Uomo Macchina. Coordinatore del progetto.
+* **Barbara Pes.** Data Mining. Estrazione della conoscenza. 
+* **Daniele Riboni.** Pervasive Computing. Prossemica e riconoscimento delle attività.
+* **Riccardo Scateni.** Computer Grafica. Geometria Computazionale. 
+* **Giovanni Puglisi.** Computer Vision. Elaborazione video e immagini. 
+* **Diego Reforgiato.** Sentiment Analysis. Riconoscimento emozioni. 
+* **Maurizio Atzori.** Web Semantico. Rappresentazione della conoscenza e analisi linguaggio naturale.
+* **Massimo Bartoletti.** Sicurezza. Sicurezza nello scambio di informazioni. 
+* **Michele Pinna.** Metodi Formali. Computazioni distribuite.  
 
 ## <a name="pubblicazioni"></a> Pubblicazioni supportate dal progetto
+### 2019
+* 	Alessandro Carcangiu, Lucio Davide Spano, Giorgio Fumera, Fabio Roli.
+_DEICTIC: A compositional and declarative gesture description based on hidden markov models._ 
+Int. J. Hum.-Comput. Stud. 122: 113-132 (2019).
+* Alessandro Carcangiu, Lucio Davide Spano:
+  _Integrating declarative models and HMMs for online gesture recognition._ 
+  IUI Companion 2019: 87-88
+* M. Bartoletti, B. Bellomy, L. Pompianu. A journey into Bitcoin metadata. 
+In Journal of Grid Computing, 2019. 
+[Paper](http://tcs.unica.it/journey-bitcoin-metadata.pdf?attredirects=0)
+* M. Bartoletti, R. Zunino. Verifying liquidity of Bitcoin contracts. In 
+  Proc. POST, 2019. [Paper](https://eprint.iacr.org/2018/1125)
 * Roberto Cocco, Maurizio Atzori, Carlo Zaniolo. _Machine Learning of SPARQL Templates for 
 Question Answering over LinkedSpending._ 28th IEEE International 
 Conference on Enabling Technologies: Infrastructure for 
@@ -42,6 +72,41 @@ Applications, 2019.
 Recognition and Interfaces._ 
 CCF Transactions on Pervasive Computing and Interaction, Springer, 2019. 
 [10.1007/s42486-018-00004-9](https://doi.org/10.1007/s42486-018-00004-9).
+
+### 2018
+* 	Fabio Marco Caputo, Pietro Prebianca, Alessandro Carcangiu, 
+Lucio Davide Spano, Andrea Giachetti:
+_Comparing 3D trajectories for simple mid-air gesture recognition._ 
+Computers & Graphics 73: 17-25 (2018)
+* 	Matteo Serpi, Alessandro Carcangiu, Alessio Murru, Lucio Davide Spano:
+  _Web5VR: A Flexible Framework for Integrating Virtual Reality Input and 
+  Output Devices on the Web._ PACMHCI 2: 4:1-4:19 (2018)
+* 	Alessandro Carcangiu, Lucio Davide Spano:
+  _G-Gene: A Gene Alignment Method for Online Partial Stroke Gestures Recognition._
+  PACMHCI 2: 13:1-13:17 (2018)
+* M. Bartoletti, B. Pes, S. Serusi. Data mining for detecting Bitcoin 
+  Ponzi schemes. In Proc. Crypto Valley Conference on Blockchain 
+  Technology, 2018
+  [Paper](https://arxiv.org/abs/1803.00646)
+* M. Bartoletti, T. Cimoli, L. Pompianu, S. Serusi. Blockchain for social 
+  good: a quantitative analysis. Presented at Goodtechs, 2018
+  [Paper](https://arxiv.org/abs/1811.03424)
+* M. Bartoletti, T. Cimoli, R. Zunino. Fun with Bitcoin smart contracts. 
+  In Proc. ISOLA, 2018.
+  [Paper](https://eprint.iacr.org/2018/398.pdf)
+* M. Bartoletti, L. Bocchi, M. Murgia. Progress-preserving Refinements of 
+CTA. In Proc. CONCUR, 2018
+[Paper](https://www.cs.kent.ac.uk/people/staff/lb514/catr.html)
+* M. Bartoletti, R. Zunino. BitML: a calculus for Bitcoin smart contracts. 
+  In Proc. ACM CCS, 2018. Also available as Cryptology ePrint Archive 
+  2018/122, 2018
+  [Paper](https://eprint.iacr.org/2018/122.pdf)
+* N. Atzei, M. Bartoletti, S. Lande, R. Zunino. A formal model of Bitcoin 
+  transactions. In Proc. Financial Cryptography, 2018
+  [Paper](https://eprint.iacr.org/2017/1124.pdf)
+* N. Atzei, M. Bartoletti, T. Cimoli, S. Lande, R. Zunino. SoK: unraveling 
+  Bitcoin smart contracts. In Proc. POST, 2018. 
+  [Paper](https://eprint.iacr.org/2018/192.pdf)
 * Gabriele Civitarese, Claudio Bettini, Timo Sztyler, Daniele Riboni, 
   Heiner Stuckenschmidt, _NECTAR: Knowledge-based Collaborative Active 
   Learning for Activity Recognition._ In Proceedings of the 2018 IEEE 
@@ -58,6 +123,27 @@ CCF Transactions on Pervasive Computing and Interaction, Springer, 2019.
 * Maurizio Atzori, Simone Balloccu and Andrea Bellanti. _Unsupervised Singleton 
 Expansion from Free Text._
 ICSC 2018 - 10th IEEE International Conference on Semantic Computing (2018)
+
+### 2017
+* 	Martina Senis, Giovanni Atzori, Fabio Sorrentino, Lucio Davide Spano, Gianni Fenu:
+  _Smart Furniture and Technologies for Supporting Distributed Learning Groups._ 
+  CHItaly 2017: 11:1-11:6
+* Fabio Sorrentino, Lucio Davide Spano, Sara Casti, Alessandro Carcangiu, 
+Fabrizio Corda, Gianmarco Cherchi, Alessio Murru, Alessandro Muntoni, Stefano Nuvoli, 
+Riccardo Scateni:
+_ChIP: Teaching Coding in Primary Schools._ DCPD@CHItaly 2017: 106-110
+* Giovanni Casu, G. Michele Pinna, _Merging Relations: A
+  Way to Compact Petri Nets’ Behaviors Uniformly_, in Proceeding of LATA
+  2017, Lecture Notes in Computer Science 10168, pp. 325–337, 2017.
+* 	Fabio Marco Caputo, Pietro Prebianca, Alessandro Carcangiu, Lucio Davide Spano, Andrea Giachetti:
+  _A 3 Cent Recognizer: Simple and Effective Retrieval and Classification of Mid-air Gestures from Single 3D Traces._ 
+  Eurographics Italian Chapter Conference 2017: 9-15
+* N. Atzei, M. Bartoletti, T. Cimoli. A survey of attacks on Ethereum 
+  smart contracts (SoK). In Proc. POST, 2017
+  [Paper](https://eprint.iacr.org/2016/1007)
+* M. Bartoletti, A. Bracciali, S. Lande, L. Pompianu. A general framework 
+  for blockchain analytics. In Proc. SERIAL, 2017
+  [Paper](https://dl.acm.org/citation.cfm?id=3152831)
 * Mattia Atzeni, Maurizio Atzori. _CodeOntology: RDF-ization of Source Code._  
 ISWC 2017 - Proceedings of the 16th International Semantic Web Conference, 
 Resource Track (2017)
