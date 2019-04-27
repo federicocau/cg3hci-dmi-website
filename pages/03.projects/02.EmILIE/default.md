@@ -4,8 +4,10 @@ title: EmILIE
 ---
 
 <div style="text-align: center">
-<h1>EmILIE <br/>
-sEnsing ImpLicit Input and Emotions</h1>
+<header>
+<h1>EmILIE </h1>
+<p>sEnsing ImpLicit Input and Emotions</p>
+</header>
 </div>
 
 ![Logo Regione Sardegna e Fondazione di Sardegna](img/emilie-logo.png)
