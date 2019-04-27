@@ -25,9 +25,11 @@ e dalla [Fondazione di Sardegna](https://www.fondazionedisardegna.it/).
 2. [Il gruppo di ricerca](#gruppo) 
 3. [Pubblicazioni](#pubblicazioni)
 
-## <a name="risultati"></a> Risultati del progetto
+<a name="risultati"></a>
+##  Risultati del progetto
 
-## <a name="gruppo"></a> Il gruppo di ricerca
+<a name="gruppo"></a>
+##  Il gruppo di ricerca
 Il progetto è stato realizzato all'interno del [Dipartimento di Matematica e Informatica](https://dmi.unica.it/).
 Il gruppo di ricerca è formato dai seguenti professori:
 * **Lucio Davide Spano.** Interazione Uomo Macchina. Coordinatore del progetto.
@@ -40,7 +42,8 @@ Il gruppo di ricerca è formato dai seguenti professori:
 * **Massimo Bartoletti.** Sicurezza. Sicurezza nello scambio di informazioni. 
 * **Michele Pinna.** Metodi Formali. Computazioni distribuite.  
 
-## <a name="pubblicazioni"></a> Pubblicazioni supportate dal progetto
+<a name="pubblicazioni"></a>
+##  Pubblicazioni supportate dal progetto
 ### 2019
 * 	Alessandro Carcangiu, Lucio Davide Spano, Giorgio Fumera, Fabio Roli.
 _DEICTIC: A compositional and declarative gesture description based on hidden markov models._ 
