@@ -8,11 +8,9 @@ title: EmILIE
 <h1>EmILIE </h1>
 <p>sEnsing ImpLicit Input and Emotions</p>
 </header>
-<img src="img/emilie-logo.png" 
- alt="ogo Regione Sardegna e Fondazione di Sardegna" style="width: 150px;"/>
 </div>
 
-
+![Logo Regione Sardegna e Fondazione di Sardegna](img/emilie-logo.png){ width="150px"}
 
 
 Lo scopo del progetto è quello di coordinare un insieme di sensori di 
