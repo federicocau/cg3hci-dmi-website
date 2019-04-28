@@ -30,6 +30,7 @@ e dalla [Fondazione di Sardegna](https://www.fondazionedisardegna.it/).
 3. [Pubblicazioni](#pubblicazioni)
 
 <a id="risultati"></a>
+
 ##  Risultati del progetto
 
 Ogni giorno interagiamo con un elevato numero di dispositivi sparsi nell’ambiente 
@@ -41,17 +42,149 @@ modo isolato. Ciò rende difficile la creazione di ambienti che sfruttino
 appieno l’interazione multi-dispositivo, anche in situazioni in cui sarebbero 
 vantaggiose, come nei negozi, nei musei o nelle aule scolastiche.
 
-<a name="figura1"></a>
+<a id="figura1"></a>
+
 ![Figura 1](img/figura1.png)
+
 *Figura 1: Un esempio di ambiente interattivo multidispositivo. 
 Diversi utenti possono interagire con diversi dispositivi che sono 
 sparsi all’interno dell’ambiente. Ogni utente può svolgere un compito con 
 l’ausilio di uno o più dispositivi, 
 anche collaborando con altri utenti.*
 
+Il progetto EmILIE ha come scopo quello di studiare delle tecniche per il 
+rilevamento di informazioni sulle diverse entità che compongono gli ambienti 
+interattivi, coordinando e integrando i dati provenienti da diversi dispositivi.
+In particolare, il progetto si è focalizzato sull’input _implicito_, cioè su 
+quelle informazioni che possono essere raccolte sugli utenti e sull’ambiente 
+che non sono state generate per interagire con un dispositivo in modo conscio, 
+come la gestualità, la prossemica o il posizionamento all’interno dell’ambiente.  
+Questo tipo di informazioni sono importanti per progettare e implementare 
+interazioni usabili sui diversi livelli di interattività, riassunti in 
+[Figura 2](#figura2). 
+
+All’interno del progetto sono stati completati diversi studi pilota, 
+che hanno permesso di provare la possibilità di utilizzare dispositivi 
+di livello consumer come semplici camere RGB, sensori di profondità, 
+microfoni, o dispositivi Bluetooth per il questo tipo di rilevamento. 
+
+<a id="figura2"></a>
+
+![Figura 2](img/figura2.png)
+
+*Figura 2: Diversi livelli di interattività in base alla distanza dal dispositivo. 
+Il primo livello prevede un’interazione personale con il dispositivo; 
+il secondo una interazione leggera, che può essere condivisa anche fra più utenti; 
+il terzo è quello dell’interazione implicita, nel quale il dispositivo può rilevare delle 
+informazioni senza che l’utente le invii esplicitamente, il quarto è quello della 
+visualizzazione di informazione ambientale, utile per l’analisi del 
+contesto delle altre interazioni.*
+
+I risultati del progetto si articolano su cinque linee di lavoro. 
+La prima è quella della **prossemica e della localizzazione indoor**. 
+All’interno del progetto è stata sviluppata un’architettura hardware e software 
+per la localizzazione della posizione dell’utente all’interno di ambienti chiusi,
+utilizzando come scenario d’esempio un’aula scolastica. Il sistema funziona 
+tramite l’utilizzo di due tipologie di emettitori Bluetooth (beacon), una a 
+lungo raggio e una a corto raggio. La prima tipologia, posizionata sulle 
+pareti, permette una stima della posizione tramite triangolazione. 
+La seconda permette di identificare oggetti come mobili o apparecchiature 
+che non di per sé non supportano servizi digitali. 
+Tramite un algoritmo di combinazione delle informazioni 
+ricevute da questi emettitori su dispositivo mobile, siamo in grado di 
+fornire la posizione dei diversi alunni all’interno dell’aula e di fornire 
+al docente una vista sui gruppi che si formano in modo autonomo. 
+Il funzionamento del sistema è riassunto in [Figura 3](#figura3). 
+
+<a id="figura3"></a>
+
+![Figura 3](img/figura3.png)
+
+*Figura 3: Rilevazione della posizione di un utente all'interno di una stanza. 
+I beacon a lungo raggio (long-range) permettono di stimare la posizione in modo 
+assoluto tramite triangolazione. Questa informazione è integrata dal rilevamento 
+dei beacon a corto raggio (short-range) che permettono di incrementare 
+l’accuratezza del posizionamento. Un server centralizzato analizza 
+la posizione di tutti gli utenti nell’ambiente e fornisce informazioni 
+dinamiche sui gruppi che si formano spontaneamente nell’ambiente.*
+
+Una seconda linea di lavoro è lo sviluppo e l’applicazione di 
+tecniche di machine learning per il **riconoscimento delle attività dell’utente**,
+sfruttando l’input implicito raccolto tramite diversi sensori. 
+Durante lo svolgimento del progetto, sono state sviluppate diverse 
+tecniche per risolvere problemi di base nell’utilizzo di dai dati raccolti 
+in fase di analisi, come nel caso di dimensionalità elevata o nel caso di una 
+distribuzione delle classi fortemente sbilanciata. Sono state studiate e 
+implementate tecniche “ensamble” per il miglioramento della stabilità e 
+l’efficacia del rilevamento, valutando sperimentalmente la robustezza di 
+diverse tecniche di selezione degli attributi rispetto alla perturbazione 
+dei dati in input. Queste tecniche, valide in generale per diverse tipologie 
+di dato, sono state applicate al caso di studio del progetto per il 
+riconoscimento delle attività utente. In particolare, le abbiamo 
+sperimentate per la personalizzazione del riconoscimento di un insieme 
+di attività in base alle caratteristiche e abilità fisiche dell’utente, 
+per la personalizzazione di servizi digitali in base al contesto d’uso 
+attraverso il riconoscimento di attività quotidiane (come ad esempio camminare,
+correre, lavarsi ecc.) e per la personalizzazione della definizione 
+dell’elenco di attività da riconoscere all’interno degli ambienti interattivi 
+(p.es. una smart home) in base al feedback degli utenti, permettendo una 
+semplice integrazione di nuovi sensori per il raffinamento delle attività 
+riconosciute. 
+
+La terza linea di lavoro è quella dello sviluppo di metodi e tecniche per la 
+**descrizione e il riconoscimento di gesti interattivi**. 
+Questa particolare forma di input permette di ottenere informazioni importanti 
+nel caso di esecuzione di azioni in modo sia conscio che inconscio. All’interno 
+del progetto è stata sviluppata una tecnica di modellazione basata sulla 
+composizione di elementi geometrici di base (punti, linee e archi.  
+Ciò permette agli sviluppatori di definire gesti interattivi come evoluzioni 
+temporali di traiettorie formate da questi elementi. La tecnica ha un duplice 
+vantaggio: da un lato permette al programmatore di definire i gesti con un 
+linguaggio apposito, ottenendo un riconoscitore accurato che fornisce 
+informazioni sia sull’intero gesto che sulle sue parti. Dall’altro lato, 
+l’approccio permette all’utente di essere guidato durante l’esecuzione del 
+gesto, tramite il supporto al riconoscimento parziale. Questo consente una 
+maggiore usabilità dei sistemi gestuali, poiché facilitano la scoperta e 
+l’esecuzione dei gesti, mitigando il problema della scelta del vocabolario 
+di interazione legata alla capacità di riconoscimento dei dispositivi di 
+tracciamento. 
+
+La quarta linea di lavoro è stata l’**estrazione di conoscenza dal linguaggio 
+naturale**. Abbiamo proposto un algoritmo che, a partire da un piccolo 
+insieme di parole co-iperonime (come ad esempio Italia, Francia, Germania), 
+restituisce una lista più lunga di elementi 
+(ad es. Spagna, Portogallo, Polonia...) in maniera non supervisionata 
+(cioè senza l’intervento di un umano), semplicemente interpretando 
+automaticamente dei testi forniti in input. Questo consente l’estrazione 
+di conoscenza strutturata su un determinato dominio o attività semplicemente 
+analizzando descrizioni in linguaggio naturale. Una evoluzione di questo 
+sistema permette, in modalità semi-supervisionata, a rispondere autonomamente 
+a interrogazioni degli utenti in linguaggio naturale, sfruttando le conoscenze 
+apprese in modo automatico. Durante la sperimentazione, l’approccio 
+è stato applicato agli open data sulle spese dei governi di diversi Paesi, 
+ottenendo dei risultati incoraggianti. Una tecnica simile è stata 
+inoltre applicata alla documentazione e al codice di librerie software 
+(in linguaggio Java), creando una ontologia (CodeOntology) interrogabile 
+per vari scopi come l’ingegneria del software o il question answering 
+computazionale. 
+
+La quinta linea di lavoro comprende le tecniche per la **dimostrazione di 
+proprietà** sui dati raccolti, in modo da rendere più semplice, 
+efficace e sicuro il salvataggio e l’analisi dei dati. I risultati 
+in questa linea hanno portato allo sviluppo di tecniche per individuare 
+analogie tra le varie informazioni, in modo da eliminare inutili duplicazioni. 
+Questo ha consentito di comprendere come differenti alternative nelle 
+varie evoluzioni possano essere compattate, introducendo il concetto di 
+merging relation che per ora ha trovato applicazione nell’ambito delle Reti 
+di Petri. Infine, ci si è concentrati nella definizione di modelli per la 
+dimostrazione di proprietà formali relative alla correttezza e completezza 
+di contratti per l’utilizzo di dati e l’esecuzione dei servizi, che consente 
+di offrire garanzie dimostrabili agli utenti dei servizi stessi. 
 
 
-<a name="gruppo"></a>
+
+<a id="gruppo"></a>
+
 ##  Il gruppo di ricerca
 Il progetto è stato realizzato all'interno del [Dipartimento di Matematica e Informatica](https://dmi.unica.it/).
 Il gruppo di ricerca è formato dai seguenti professori:
@@ -65,7 +198,8 @@ Il gruppo di ricerca è formato dai seguenti professori:
 * **Massimo Bartoletti.** Sicurezza. Sicurezza nello scambio di informazioni. 
 * **Michele Pinna.** Metodi Formali. Computazioni distribuite.  
 
-<a name="pubblicazioni"></a>
+<a id="pubblicazioni"></a>
+
 ##  Pubblicazioni supportate dal progetto
 ### 2019
 * 	Alessandro Carcangiu, Lucio Davide Spano, Giorgio Fumera, Fabio Roli.
