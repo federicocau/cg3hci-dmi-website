@@ -29,8 +29,27 @@ e dalla [Fondazione di Sardegna](https://www.fondazionedisardegna.it/).
 2. [Il gruppo di ricerca](#gruppo) 
 3. [Pubblicazioni](#pubblicazioni)
 
-<a name="risultati"></a>
+<a id="risultati"></a>
 ##  Risultati del progetto
+
+Ogni giorno interagiamo con un elevato numero di dispositivi sparsi nell’ambiente 
+che ci circonda o che indossiamo e portiamo sempre con noi ([Figura 1](#figura1)). 
+Sebbene ognuno di loro sia collegato in modo autonomo alla rete internet, 
+che consente una comunicazione con qualsiasi servizio o applicazione, 
+di solito questi dispositivi supportano l’interazione con gli utenti in 
+modo isolato. Ciò rende difficile la creazione di ambienti che sfruttino 
+appieno l’interazione multi-dispositivo, anche in situazioni in cui sarebbero 
+vantaggiose, come nei negozi, nei musei o nelle aule scolastiche.
+
+<a name="figura1"></a>
+![Figura 1](img/figura1.png)
+*Figura 1: Un esempio di ambiente interattivo multidispositivo. 
+Diversi utenti possono interagire con diversi dispositivi che sono 
+sparsi all’interno dell’ambiente. Ogni utente può svolgere un compito con 
+l’ausilio di uno o più dispositivi, 
+anche collaborando con altri utenti.*
+
+
 
 <a name="gruppo"></a>
 ##  Il gruppo di ricerca
