@@ -98,7 +98,7 @@ Il funzionamento del sistema è riassunto in [Figura 3](#figura3).
 
 <a id="figura3"></a>
 
-![Figura 3](img/figura3.png?resize=400,400&classes=center)
+![Figura 3](img/figura3.png)
 
 *Figura 3: Rilevazione della posizione di un utente all'interno di una stanza. 
 I beacon a lungo raggio (long-range) permettono di stimare la posizione in modo 
