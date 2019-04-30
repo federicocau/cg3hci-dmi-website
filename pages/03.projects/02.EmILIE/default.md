@@ -22,7 +22,8 @@ le capacità dell’hardware del dispositivo, tramite la condivisione
 delle informazioni.
 
 Il progetto è stato finanziato dalla [Regione Autonoma della Sardegna](https://www.regione.sardegna.it/) 
-e dalla [Fondazione di Sardegna](https://www.fondazionedisardegna.it/).
+e dalla [Fondazione di Sardegna](https://www.fondazionedisardegna.it/), è iniziato nell'aprile 2017 e 
+si è concluso nell'aprile 2019.
 
 ##Sommario
 1. [Risultati del progetto](#risultati)
