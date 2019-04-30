@@ -14,7 +14,7 @@ title: EmILIE
 
 
 Lo scopo del progetto è quello di coordinare un insieme di sensori di 
-livello consumer, per la coordinazione di un’interazione prossemica 
+livello consumer, per il supporto di un’interazione prossemica 
 con i diversi dispositivi, determinando inoltre la condizione affettiva 
 dell’utente. In questo modo, le applicazioni saranno in grado di 
 sfruttare in modo opportunistico i valori stimati, aumentando 
