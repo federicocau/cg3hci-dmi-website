@@ -1,5 +1,5 @@
 ---
-title: Home
+title: D3P2
 body_classes: title-center title-h1h2
 ---
 
