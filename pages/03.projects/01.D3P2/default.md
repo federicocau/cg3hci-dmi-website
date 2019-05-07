@@ -211,9 +211,7 @@ due mani per esempio lungo l’asse X e incrementa la distanza fra le mani per i
 ## Video dimostrativi
 
 ###Web5VR
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=SE8_lN3pS4M
-" target="_blank"><img src="http://img.youtube.com/vi/SE8_lN3pS4M/0.jpg" 
-alt="Web5VR" width="240" height="180" border="10" /></a>
+[![Web5VR](http://img.youtube.com/vi/SE8_lN3pS4ME/0.jpg)](http://www.youtube.com/watch?v=SE8_lN3pS4M)
 
 <a id="pubblicazioni"></a>
 
