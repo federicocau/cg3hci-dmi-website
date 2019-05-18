@@ -214,6 +214,9 @@ due mani per esempio lungo l’asse X e incrementa la distanza fra le mani per i
 ###Web5VR
 [![Web5VR](https://img.youtube.com/vi/SE8_lN3pS4M/0.jpg)](http://www.youtube.com/watch?v=SE8_lN3pS4M)
 
+###Selezione, manipolazione e animazioni
+[![Selezione, manipolazione e animazioni](https://img.youtube.com/vi/BdfmoxJNAMc/0.jpg)](http://www.youtube.com/watch?v=BdfmoxJNAMc)
+
 <a id="pubblicazioni"></a>
 
 ## Pubblicazioni supportate dal progetto
