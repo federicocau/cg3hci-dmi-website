@@ -14,7 +14,7 @@ Thank you very much to all the students that provided this material.
 * [2018](#2018)
     * [PAC-PAC](#pac-pac)
     * [AI4Fit](#ai4fit)
-    * [MR2](#mr)
+    * [MR2](#mr2)
 
 <a id="2018"></a>
 
