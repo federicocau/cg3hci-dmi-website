@@ -40,7 +40,7 @@ cultural and environmental heritage through videogames.
 
 ####Paper
 The paper was accepted as a demo at the the 7th International Symposium on End-User Development 
-([IS-EUD 2019]()https://sites.google.com/site/iseud2019/). 
+([IS-EUD 2019](https://sites.google.com/site/iseud2019/)). 
 
 [Fulltext](_2018/is-eud-demo-2019.pdf)
 
