@@ -212,14 +212,11 @@ due mani per esempio lungo l’asse X e incrementa la distanza fra le mani per i
 ## Video dimostrativi
 
 ###Web5VR
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/SE8_lN3pS4M">
-</iframe>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/SE8_lN3pS4M"></iframe>
 
 ###Selezione, manipolazione e animazioni
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/BdfmoxJNAMc">
-</iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/BdfmoxJNAMc"></iframe>
 
 <a id="pubblicazioni"></a>
 
