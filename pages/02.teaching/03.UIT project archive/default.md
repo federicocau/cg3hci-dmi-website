@@ -12,10 +12,16 @@ Thank you very much to all the students that provided this material.
 
 ##Year
 * [2018](#2018)
+    * [PAC-PAC](#pac-pac)
+    * [AI4Fit](#ai4fit)
+    * [MR2](#mr)
 
 <a id="2018"></a>
 
 ##2018
+
+<a id="pac-pac"></a>
+<hr>
 
 ###PAC-PAC
 *Filippo Andrea Fanni, Martina Senis, Alessandro Tola*
@@ -38,6 +44,9 @@ The paper was accepted as a demo at the the 7th International Symposium on End-U
 
 [Fulltext](_2018/is-eud-demo-2019.pdf)
 
+<a id="ai4fit"></a>
+<hr>
+
 ###AI4Fit
 *Federico Maria Cau, Mattia Samuel Mancosu*
 
@@ -54,6 +63,9 @@ The paper was accepted as a poster at the 24th annual meeting of the intelligent
 user interface community meeting ([ACM IUI 2019](https://iui.acm.org/2019/)).
 
 [Fulltext](_2018/ai4fit-iui-paper.pdf)
+
+<a id="mr2"></a>
+<hr>
 
 ###MR2
 This project is about the design and implementation of a preliminary 
