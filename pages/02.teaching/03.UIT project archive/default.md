@@ -70,6 +70,7 @@ user interface community meeting ([ACM IUI 2019](https://iui.acm.org/2019/)).
 ###MR2
 *Carlo Cuccu, Vittoria Frau*
 
+####Abstract
 This project is about the design and implementation of a preliminary 
 Mixed Reality interface for Microsoft Hololens, supporting medical 
 records retrieval and navigation. The goal is to ease common activities 
