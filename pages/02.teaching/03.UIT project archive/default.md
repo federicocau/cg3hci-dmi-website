@@ -42,7 +42,7 @@ cultural and environmental heritage through videogames.
 The paper was accepted as a demo at the the 7th International Symposium on End-User Development 
 ([IS-EUD 2019](https://sites.google.com/site/iseud2019/)). 
 
-[Fulltext](_2018/is-eud-demo-2019.pdf)
+[Fulltext](2018/is-eud-demo-2019.pdf)
 
 <a id="ai4fit"></a>
 <hr>
@@ -62,7 +62,7 @@ the assessment.
 The paper was accepted as a poster at the 24th annual meeting of the intelligent
 user interface community meeting ([ACM IUI 2019](https://iui.acm.org/2019/)).
 
-[Fulltext](_2018/ai4fit-iui-paper.pdf)
+[Fulltext](2018/ai4fit-iui-paper.pdf)
 
 <a id="mr2"></a>
 <hr>
@@ -82,6 +82,6 @@ interaction.
 The paper was accepted as a demo at the he 8th ACM International Symposium on 
 Pervasive Displays ([PerDis 2019](http://pervasivedisplays.org/2019/)) 
 
-[Fulltext](_2018/UIT_MR2.pdf)
+[Fulltext](2018/UIT_MR2.pdf)
 
 
