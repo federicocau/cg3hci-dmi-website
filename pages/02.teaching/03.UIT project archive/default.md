@@ -37,6 +37,12 @@ test investigating the users' ability in recognizing variations in
 intensity and/or duration of the stimulus, especially when the two 
 dimensions are combined for encoding information.
 
+####Paper
+The paper was accepted as a poster at the 2020 International Conference on 
+Advanced Visual Interfaces ([AVI 2020](https://sites.google.com/unisa.it/avi2020/home))-
+
+[Fulltext](2019/feedbucket-avi-v1.pdf)
+
 <a id="2018"></a>
 
 ##2018
@@ -55,12 +61,6 @@ Users can easily create scenes, add simple objects such as transitions or
 switches, connect scenes to each other and define the game rules. 
 The tool is developed as a part of PAC-PAC, a project for promoting 
 cultural and environmental heritage through videogames.
-
-####Paper
-The paper was accepted as a poster at the 2020 International Conference on 
-Advanced Visual Interfaces ([AVI 2020](https://sites.google.com/unisa.it/avi2020/home))-
-
-[Fulltext](2019/feedbucket-avi-v1.pdf)
 
 ####Demo Video
 <iframe width="560" height="340" src="https://www.youtube.com/embed/P13c1-kIt-g"></iframe>
