@@ -11,10 +11,31 @@ Thank you very much to all the students that provided this material.
 
 
 ##Year
+* [2019](#2019)
+    * [FeedBucket](#feedbucket)
 * [2018](#2018)
     * [PAC-PAC](#pac-pac)
     * [AI4Fit](#ai4fit)
     * [MR2](#mr2)
+    
+<a id="2019"></a>
+
+##2019
+
+<a id="feedbucket"></a>
+<hr>
+
+###FeedBucket
+*Valentino Artizzu, Davide Fara, Riccardo Macis*
+
+####Abstract
+The project introduces a simplified structure for the creation, 
+assignment and execution of haptic feedback for standard controllers 
+with the optional feature of synchronizing an haptic pattern to an 
+auditory feedback. In addition, it reports the results of a preliminary 
+test investigating the users' ability in recognizing variations in 
+intensity and/or duration of the stimulus, especially when the two 
+dimensions are combined for encoding information.
 
 <a id="2018"></a>
 
@@ -34,6 +55,12 @@ Users can easily create scenes, add simple objects such as transitions or
 switches, connect scenes to each other and define the game rules. 
 The tool is developed as a part of PAC-PAC, a project for promoting 
 cultural and environmental heritage through videogames.
+
+####Paper
+The paper was accepted as a poster at the 2020 International Conference on 
+Advanced Visual Interfaces ([AVI 2020](https://sites.google.com/unisa.it/avi2020/home))-
+
+[Fulltext](2019/feedbucket-avi-v1.pdf)
 
 ####Demo Video
 <iframe width="560" height="340" src="https://www.youtube.com/embed/P13c1-kIt-g"></iframe>
@@ -86,5 +113,7 @@ The paper was accepted as a demo at the he 8th ACM International Symposium on
 Pervasive Displays ([PerDis 2019](http://pervasivedisplays.org/2019/)) 
 
 [Fulltext](2018/UIT_MR2.pdf)
+
+
 
 
