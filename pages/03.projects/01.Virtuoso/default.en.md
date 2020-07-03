@@ -75,3 +75,19 @@ related to physical activity and diet.
 
 The project was funded by the [Sardinian Regional Government](https://www.regione.sardegna.it/) and ended in 2017.
 
+## Demo video
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/_WGFXWVaeD0"></iframe>
+
+## Project publications
+* Marianna Saba, Fabio Sorrentino, Alessandro Muntoni, Sara Casti, Gianmarco Cherchi, Alessandro Carcangiu, 
+Fabrizio Corda, Alessio Murru, Lucio Davide Spano, 
+Riccardo Scateni, Ilaria Vitali, Ovidio Salvetti, Massimo Magrini, 
+Andrea Villa, Andrea Carboni, Maria Antonietta Pascali:
+A Seamless Pipeline for the Acquisition of the Body Shape: the Virtuoso Case Study. STAG 2017: 71-80 <br/>
+[Paper](https://www.researchgate.net/publication/320490090_A_Seamless_Pipeline_for_the_Acquisition_of_the_Body_Shape_the_Virtuoso_Case_Study)
+
+* Marianna Saba, Riccardo Scateni, Fabio Sorrentino, Lucio Davide Spano, Sara Colantonio, Daniela Giorgi, Massimo Magrini, Ovidio Salvetti, Novella Buonaccorsi, Ilaria Vitali:
+Smart Mirror Where I Stand, Who Is the Leanest in the Sand? HCI (9) 2015: 364-373<br>
+[Paper](https://www.researchgate.net/publication/300350514_Smart_Mirror_Where_I_Stand_Who_Is_the_Leanest_in_the_Sand)
+
