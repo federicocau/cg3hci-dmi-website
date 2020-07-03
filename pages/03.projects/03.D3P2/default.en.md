@@ -1,7 +1,6 @@
 ---
 title: D3P2
-
-
+visible: false
 ---
 
 <div style="text-align: center">
