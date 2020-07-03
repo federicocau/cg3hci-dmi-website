@@ -35,5 +35,5 @@ at hand. Finally, the course will discuss the software architectures for
 developing user interfaces their evolution through the user interface history 
 and examples of modern development toolkits.
 
-[Project Archive](03.UIT%20project%20archive/default.md)
+[Project Archive](UIT/UIT-project-archive/default.md)
 
