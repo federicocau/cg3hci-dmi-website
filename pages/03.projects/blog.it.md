@@ -1,6 +1,5 @@
 ---
 title: Progetti
-
 content:
     items:
         - '@self.children'
@@ -12,3 +11,6 @@ content:
     url_taxonomy_filters: false
 ---
 
+# Progetti del Gruppo
+
+Di seguito una lista dei progetti di ricerca finanziati in ambito regionale, nazionale ed europeo.
