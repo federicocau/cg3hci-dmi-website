@@ -14,7 +14,7 @@ fitness & wellness nei centri turistici</p>
 
 ![Logo Regione Sardegna](img/virtuoso-logo.png)
 
-
+## Abstract
 Le vacanze sono spesso vissute come un momentaneo 
 cambiamento di vita, lontano dal tran-tran stressante della 
 quotidianità cittadina e lavorativa. In quest’ottica, molti 
