@@ -1,4 +1,6 @@
 ---
+title: Progetti
+
 content:
     items:
         - '@self.children'
