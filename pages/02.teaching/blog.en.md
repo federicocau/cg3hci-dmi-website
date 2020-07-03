@@ -5,7 +5,7 @@ content:
         - '@self.children'
     limit: 10
     order:
-        by: default
+        by: title
         dir: desc
     pagination: true
     url_taxonomy_filters: false
