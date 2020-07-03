@@ -6,7 +6,7 @@ content:
     limit: 10
     order:
         by: folder
-        dir: asc
+        dir: desc
     pagination: true
     url_taxonomy_filters: false
 ---
