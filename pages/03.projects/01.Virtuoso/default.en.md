@@ -13,6 +13,8 @@ in the practice of fitness & wellness activities in tourist centers</p>
 
 ![Logo Regione Sardegna](img/virtuoso-logo.png)
 
+===
+
 ## Abstract
 Holidays are often experienced as a momentary
 life change, away from the stressful routine of
