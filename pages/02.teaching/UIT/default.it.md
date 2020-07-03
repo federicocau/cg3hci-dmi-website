@@ -17,4 +17,4 @@ and examples of modern development toolkits.
 
 ##Additional Information
 * Teacher: [Lucio Davide Spano](http://people.unica.it/davidespano)
-* You can have a look to the [best projects archive](UIT-project-archive/default.md))  
+* You can have a look to the [best projects archive](UIT-project-archive/default.md)
