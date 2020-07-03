@@ -1,6 +1,7 @@
 ---
 title: Virtuoso
-
+date: '09-01-2018 15:52'
+publish_date: '09-01-2018 15:52'
 ---
 
 <div style="text-align: center">
