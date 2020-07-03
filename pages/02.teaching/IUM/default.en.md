@@ -2,7 +2,7 @@
 title: Human Computer Interaction (IUM)
 ---
 
-#Human Computer Interaction (IUM)
+##Human Computer Interaction (IUM)
 
 The course provides an introduction to the Human Computer Interaction (HCI) 
 field and to the main aspects involved in the human interaction with 

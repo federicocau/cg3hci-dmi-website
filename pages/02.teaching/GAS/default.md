@@ -2,7 +2,8 @@
 title: Geometric Algorithms and Spatial Data Structures (GAS)
 ---
 
-#Geometric Algorithms and Spatial Data Structures (GAS)
+## Geometric Algorithms and Spatial Data Structures (GAS)
+
 _The course is available only in English_
 Knowledge and understanding:
 

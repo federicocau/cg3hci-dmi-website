@@ -2,7 +2,7 @@
 title: Video Game Design (VGD)
 ---
 
-#Video Game Desing (VGD)
+##Video Game Desing (VGD)
 Knowledge and understanding:
 
 * Understand what designing a video game is like

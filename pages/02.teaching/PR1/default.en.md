@@ -2,7 +2,7 @@
 title: Programming 1 (PR1)
 ---
 
-#Programming 1 (PR)
+##Programming 1 (PR)
 Knowledge and understanding:
 
 * Understanding what programming a computer means

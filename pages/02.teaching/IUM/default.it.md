@@ -3,7 +3,7 @@
 title: Interazione Uomo Macchina (IUM)
 ---
 
-#Interazione Uomo Macchina (IUM)
+##Interazione Uomo Macchina (IUM)
 
 The course provides an introduction to the Human Computer Interaction (HCI) 
 field and to the main aspects involved in the human interaction with 

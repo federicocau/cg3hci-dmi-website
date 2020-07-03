@@ -2,7 +2,7 @@
 title: Programmazione 1 (PR1)
 ---
 
-#Programmazione 1 (PR)
+##Programmazione 1 (PR)
 Conoscenza e capacità di comprensione:
 
 * Comprendere cosa significa programmare un computer

@@ -2,7 +2,7 @@
 title: Video Game Design (VGD)
 ---
 
-#Video Game Design (PR)
+##Video Game Design (PR)
 Conoscenza e capacità di comprensione:
 
 * Comprendere cosa significa progettare un video game

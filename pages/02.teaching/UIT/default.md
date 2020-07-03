@@ -2,7 +2,7 @@
 title: User Interface Technologies (UIT)
 ---
 
-#User Interface Technologies (UIT)
+##User Interface Technologies (UIT)
 _The course is available only in English_
 
 The course provides the knowledge for understanding and exploiting different 
