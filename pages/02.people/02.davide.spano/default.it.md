@@ -2,9 +2,9 @@
 title: 'Lucio Davide Spano'
 ---
 
-##Lucio Davide Spano
+###Lucio Davide Spano
 
-![Foto di Lucio Davide Spano](img/davide.png)
+<img src="img/davide.png" alt="Picture of Lucio Davide Spano" style="height: 450px">
 
 **Professore Associato**
 
