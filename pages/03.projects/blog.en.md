@@ -5,7 +5,7 @@ content:
         - '@self.children'
     limit: 5
     order:
-        by: default
+        by: folder
         dir: desc
     pagination: true
     url_taxonomy_filters: false
