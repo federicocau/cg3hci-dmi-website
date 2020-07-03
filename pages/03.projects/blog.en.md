@@ -7,7 +7,7 @@ content:
     limit: 5
     order:
         by: date
-        dir: desc
+        dir: asc
     pagination: true
     url_taxonomy_filters: false
 ---
