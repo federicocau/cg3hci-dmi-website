@@ -1,5 +1,6 @@
 ---
 title: 'Riccardo Scateni'
+visible: false
 ---
 
 ###Riccardo Scateni

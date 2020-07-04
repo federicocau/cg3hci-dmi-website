@@ -1,5 +1,6 @@
 ---
 title: 'Lucio Davide Spano'
+visible: false
 ---
 
 ###Lucio Davide Spano
