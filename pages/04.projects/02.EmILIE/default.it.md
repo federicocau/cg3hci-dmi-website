@@ -13,141 +13,142 @@ visible: false
 ![Logo Regione Sardegna e Fondazione di Sardegna](img/emilie-logo.png)
 
 
-The aim of the project is to coordinate a set of sensors of
-consumer level, to support proxemic interaction
-with the different devices, also determining the user's emotional condition. 
-In this way, applications will opportunistically exploit the 
-estimated values, increasing the device capabilities by sharing
-information.
+Lo scopo del progetto è quello di coordinare un insieme di sensori di 
+livello consumer, per il supporto di un’interazione prossemica 
+con i diversi dispositivi, determinando inoltre la condizione affettiva 
+dell’utente. In questo modo, le applicazioni saranno in grado di 
+sfruttare in modo opportunistico i valori stimati, aumentando 
+le capacità dell’hardware del dispositivo, tramite la condivisione 
+delle informazioni.
 
-The project was funded by the [Sardinian Regional Government](https://www.regione.sardegna.it/) 
-and by the [Fondazione di Sardegna](https://www.fondazionedisardegna.it/). It
-ended in April 2019.
+Il progetto è stato finanziato dalla [Regione Autonoma della Sardegna](https://www.regione.sardegna.it/) 
+e dalla [Fondazione di Sardegna](https://www.fondazionedisardegna.it/), è iniziato nell'aprile 2017 e 
+si è concluso nell'aprile 2019.
 
-##Outline
-1. [Project Results](#risultati)
-2. [The Research Group](#gruppo) 
-3. [Papers](#pubblicazioni)
+##Sommario
+1. [Risultati del progetto](#risultati)
+2. [Il gruppo di ricerca](#gruppo) 
+3. [Pubblicazioni](#pubblicazioni)
 
 <a id="risultati"></a>
 
-##  Project Results
+##  Risultati del progetto
 
-Every day we interact with a large number of devices scattered throughout the environment
-that surrounds us, or that we wear and carry with us ([Figure 1](#figura1)).
-Although each of them is connected independently to the internet,
-allowing the communication with any service or application, these devices 
-usually support the interaction with users in
-an isolated way. This makes it difficult to create environments that take 
-advantage of a fully multi-device interaction, even in situations where 
-it would be advantageous, such as in shops, museums or classrooms.
+Ogni giorno interagiamo con un elevato numero di dispositivi sparsi nell’ambiente 
+che ci circonda o che indossiamo e portiamo sempre con noi ([Figura 1](#figura1)). 
+Sebbene ognuno di loro sia collegato in modo autonomo alla rete internet, 
+che consente una comunicazione con qualsiasi servizio o applicazione, 
+di solito questi dispositivi supportano l’interazione con gli utenti in 
+modo isolato. Ciò rende difficile la creazione di ambienti che sfruttino 
+appieno l’interazione multi-dispositivo, anche in situazioni in cui sarebbero 
+vantaggiose, come nei negozi, nei musei o nelle aule scolastiche.
 
 <a id="figura1"></a>
 
-![Figure 1](img/figura1.png)
+![Figura 1](img/figura1.png)
 
-*Figure 1: An example of an interactive multi-device environment.
- Different users can interact with different devices that are
- scattered within the environment. Each user can perform a task using 
- one or more devices, and/or collaborating with other users.*
+*Figura 1: Un esempio di ambiente interattivo multidispositivo. 
+Diversi utenti possono interagire con diversi dispositivi che sono 
+sparsi all’interno dell’ambiente. Ogni utente può svolgere un compito con 
+l’ausilio di uno o più dispositivi, 
+anche collaborando con altri utenti.*
 
-The EmILIE project aims to study techniques for the
-detection of information on the different entities in interactive environments,
-coordinating and integrating data from different devices.
-In particular, the project focused on _implicit_ input, i.e. on
-pieces of information that we can collect about both users and 
-the environment which were not generated with the aim of interacting with
-a device, such as gestures, proxemics or positioning within the environment.
-This type of information is important for planning and implementing
-usable interactions on the different levels of interactivity, summarized in
-[Figure 2](#figura2). 
+Il progetto EmILIE ha come scopo quello di studiare delle tecniche per il 
+rilevamento di informazioni sulle diverse entità che compongono gli ambienti 
+interattivi, coordinando e integrando i dati provenienti da diversi dispositivi.
+In particolare, il progetto si è focalizzato sull’input _implicito_, cioè su 
+quelle informazioni che possono essere raccolte sugli utenti e sull’ambiente 
+che non sono state generate per interagire con un dispositivo in modo conscio, 
+come la gestualità, la prossemica o il posizionamento all’interno dell’ambiente.  
+Questo tipo di informazioni sono importanti per progettare e implementare 
+interazioni usabili sui diversi livelli di interattività, riassunti in 
+[Figura 2](#figura2). 
 
-Several pilot studies were completed within the project,
-which allowed testing  
-consumer-level devices like simple RGB cameras, depth sensors,
-microphones, or Bluetooth devices for this type of detection.
+All’interno del progetto sono stati completati diversi studi pilota, 
+che hanno permesso di provare la possibilità di utilizzare dispositivi 
+di livello consumer come semplici camere RGB, sensori di profondità, 
+microfoni, o dispositivi Bluetooth per il questo tipo di rilevamento. 
 
 <a id="figura2"></a>
 
-![Figure 2](img/figura2.png)
+![Figura 2](img/figura2.png)
 
-*Figure 2: Different levels of interactivity based on the distance from the device.
- The first level supports a personal interaction with the device;
- the second supports a light interaction, which can also be shared between 
- multiple users;
- the third is the implicit interaction, in which the device can detect
- information without the user explicitly sending it;
- the fourth is the visualization of environmental information, useful 
- for the analysis of context in other interactions.*
+*Figura 2: Diversi livelli di interattività in base alla distanza dal dispositivo. 
+Il primo livello prevede un’interazione personale con il dispositivo; 
+il secondo una interazione leggera, che può essere condivisa anche fra più utenti; 
+il terzo è quello dell’interazione implicita, nel quale il dispositivo può rilevare delle 
+informazioni senza che l’utente le invii esplicitamente, il quarto è quello della 
+visualizzazione di informazione ambientale, utile per l’analisi del 
+contesto delle altre interazioni.*
 
-The results of the project are divided into five threads of work.
-The first is the ** proxemics and indoor location **.
-We developed a hardware and software architecture for identifying 
-the location of the user's position inside closed rooms,
-using a classroom as an example scenario. The system works
-through the use of two types of Bluetooth emitters (beacons), the first has a
-long range and the second a short range. 
-The first type, positioned on the walls, allows a position estimation by 
-triangulation. 
-The second allows identifying objects such as furniture or equipment that,
-by themselves, do not support digital services.
-We introduced an algorithm for combining the information
-received by these emitters on a mobile device. We are able to
-provide the position of the different pupils within the classroom and to 
-provide the teacher with a view of the groups that emerged autonomously.
-The functioning of the system is summarized in [Figure 3] (#figura3).
+I risultati del progetto si articolano su cinque linee di lavoro. 
+La prima è quella della **prossemica e della localizzazione indoor**. 
+All’interno del progetto è stata sviluppata un’architettura hardware e software 
+per la localizzazione della posizione dell’utente all’interno di ambienti chiusi,
+utilizzando come scenario d’esempio un’aula scolastica. Il sistema funziona 
+tramite l’utilizzo di due tipologie di emettitori Bluetooth (beacon), una a 
+lungo raggio e una a corto raggio. La prima tipologia, posizionata sulle 
+pareti, permette una stima della posizione tramite triangolazione. 
+La seconda permette di identificare oggetti come mobili o apparecchiature 
+che non di per sé non supportano servizi digitali. 
+Tramite un algoritmo di combinazione delle informazioni 
+ricevute da questi emettitori su dispositivo mobile, siamo in grado di 
+fornire la posizione dei diversi alunni all’interno dell’aula e di fornire 
+al docente una vista sui gruppi che si formano in modo autonomo. 
+Il funzionamento del sistema è riassunto in [Figura 3](#figura3). 
 
 <a id="figura3"></a>
 
-![Figure 3](img/figura3.png)
+![Figura 3](img/figura3.png)
 
-*Figure 3: Detection of a user's position within a room.
- Long range beacons allow estimating the absolute position by triangulation. 
- This information is supplemented by detection
- of short-range beacons that allow increasing the
- the accuracy of the positioning. A centralized server analyzes
- the position for all users in the environment and provides dynamic updates
-  on groups that spontaneously emerged in the environment.*
+*Figura 3: Rilevazione della posizione di un utente all'interno di una stanza. 
+I beacon a lungo raggio (long-range) permettono di stimare la posizione in modo 
+assoluto tramite triangolazione. Questa informazione è integrata dal rilevamento 
+dei beacon a corto raggio (short-range) che permettono di incrementare 
+l’accuratezza del posizionamento. Un server centralizzato analizza 
+la posizione di tutti gli utenti nell’ambiente e fornisce informazioni 
+dinamiche sui gruppi che si formano spontaneamente nell’ambiente.*
 
-A second thread of work is the development and application of
-machine learning techniques for the ** recognition of user activities **,
-taking advantage of the implicit input collected through different sensors.
-During the course of the project, we developed several
-techniques to solve basic problems in using data collected
-during the analysis phase, as in the case of high dimensionality or in the case of one
-strongly unbalanced class distributions. We studied and
-implemented ensamble techniques to improve the stability and the 
-effectiveness of detection. We evaluated the robustness of
-different techniques for selecting attributes with respect to a perturbation
-input data. These techniques, generally valid for different types
-of data, have been applied in the project case study of activity recognition.
-In particular, we experimented the personalization of the recognition of 
-a whole set activities based on the characteristics and physical abilities 
-of the user, for the personalising digital services based on the context 
-of use, through the recognition of daily activities (such as walking,
-running, washing etc.) and for customizing the definition
-of the list of activities to be recognized within the interactive environments
-(e.g. a smart home) based on user feedback, allowing a
-simple integration of new sensors to refine activities
-recognized.
+Una seconda linea di lavoro è lo sviluppo e l’applicazione di 
+tecniche di machine learning per il **riconoscimento delle attività dell’utente**,
+sfruttando l’input implicito raccolto tramite diversi sensori. 
+Durante lo svolgimento del progetto, sono state sviluppate diverse 
+tecniche per risolvere problemi di base nell’utilizzo di dai dati raccolti 
+in fase di analisi, come nel caso di dimensionalità elevata o nel caso di una 
+distribuzione delle classi fortemente sbilanciata. Sono state studiate e 
+implementate tecniche “ensamble” per il miglioramento della stabilità e 
+l’efficacia del rilevamento, valutando sperimentalmente la robustezza di 
+diverse tecniche di selezione degli attributi rispetto alla perturbazione 
+dei dati in input. Queste tecniche, valide in generale per diverse tipologie 
+di dato, sono state applicate al caso di studio del progetto per il 
+riconoscimento delle attività utente. In particolare, le abbiamo 
+sperimentate per la personalizzazione del riconoscimento di un insieme 
+di attività in base alle caratteristiche e abilità fisiche dell’utente, 
+per la personalizzazione di servizi digitali in base al contesto d’uso 
+attraverso il riconoscimento di attività quotidiane (come ad esempio camminare,
+correre, lavarsi ecc.) e per la personalizzazione della definizione 
+dell’elenco di attività da riconoscere all’interno degli ambienti interattivi 
+(p.es. una smart home) in base al feedback degli utenti, permettendo una 
+semplice integrazione di nuovi sensori per il raffinamento delle attività 
+riconosciute. 
 
-The third thread of work is developing methods and techniques for the
-** description and recognition of interactive gestures **.
-This particular form of input allows obtaining important information
-both when the movement is performed consciously and unconsciously. 
-We developed a modeling technique based on the
-composition of basic geometric elements (points, lines and arcs).
-This allows developers to define interactive gestures as the 
-temporal evolution of trajectories formed by these elements. 
-The technique has a twofold advantage: on the one hand it allows the 
-programmer to define gestures with a specific language, 
-obtaining an accurate recognizer for both the entire gesture and its parts. 
-On the other hand, the approach supports the user guidance during the 
-execution of the gesture, by supporting partial recognition. 
-This increases the usability of the gestural systems, since it facilitates 
-the discovery and the execution of gestures, mitigating the problem of 
-choosing an interaction vocabulary bounded to the recognition capability 
-of the tracking devices.
+La terza linea di lavoro è quella dello sviluppo di metodi e tecniche per la 
+**descrizione e il riconoscimento di gesti interattivi**. 
+Questa particolare forma di input permette di ottenere informazioni importanti 
+nel caso di esecuzione di azioni in modo sia conscio che inconscio. All’interno 
+del progetto è stata sviluppata una tecnica di modellazione basata sulla 
+composizione di elementi geometrici di base (punti, linee e archi.  
+Ciò permette agli sviluppatori di definire gesti interattivi come evoluzioni 
+temporali di traiettorie formate da questi elementi. La tecnica ha un duplice 
+vantaggio: da un lato permette al programmatore di definire i gesti con un 
+linguaggio apposito, ottenendo un riconoscitore accurato che fornisce 
+informazioni sia sull’intero gesto che sulle sue parti. Dall’altro lato, 
+l’approccio permette all’utente di essere guidato durante l’esecuzione del 
+gesto, tramite il supporto al riconoscimento parziale. Questo consente una 
+maggiore usabilità dei sistemi gestuali, poiché facilitano la scoperta e 
+l’esecuzione dei gesti, mitigando il problema della scelta del vocabolario 
+di interazione legata alla capacità di riconoscimento dei dispositivi di 
+tracciamento. 
 
 La quarta linea di lavoro è stata l’**estrazione di conoscenza dal linguaggio 
 naturale**. Abbiamo proposto un algoritmo che, a partire da un piccolo 
