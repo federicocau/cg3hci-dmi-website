@@ -1,6 +1,6 @@
 ---
-   title: 'Federico Cau'
-   visible: false
+title: 'Federico Cau'
+visible: false
 ---
    
 ###Federico Cau
