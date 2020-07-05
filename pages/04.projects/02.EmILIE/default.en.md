@@ -149,58 +149,55 @@ the discovery and the execution of gestures, mitigating the problem of
 choosing an interaction vocabulary bounded to the recognition capability 
 of the tracking devices.
 
-La quarta linea di lavoro è stata l’**estrazione di conoscenza dal linguaggio 
-naturale**. Abbiamo proposto un algoritmo che, a partire da un piccolo 
-insieme di parole co-iperonime (come ad esempio Italia, Francia, Germania), 
-restituisce una lista più lunga di elementi 
-(ad es. Spagna, Portogallo, Polonia...) in maniera non supervisionata 
-(cioè senza l’intervento di un umano), semplicemente interpretando 
-automaticamente dei testi forniti in input. Questo consente l’estrazione 
-di conoscenza strutturata su un determinato dominio o attività semplicemente 
-analizzando descrizioni in linguaggio naturale. Una evoluzione di questo 
-sistema permette, in modalità semi-supervisionata, a rispondere autonomamente 
-a interrogazioni degli utenti in linguaggio naturale, sfruttando le conoscenze 
-apprese in modo automatico. Durante la sperimentazione, l’approccio 
-è stato applicato agli open data sulle spese dei governi di diversi Paesi, 
-ottenendo dei risultati incoraggianti. Una tecnica simile è stata 
-inoltre applicata alla documentazione e al codice di librerie software 
-(in linguaggio Java), creando una ontologia (CodeOntology) interrogabile 
-per vari scopi come l’ingegneria del software o il question answering 
-computazionale. 
+The fourth thread of work was the ** extraction of knowledge from natural
+language**. We proposed an algorithm that, starting with a small 
+set of co-hyperonym words (such as Italy, France, Germany),
+returns a longer list of items
+(e.g., Spain, Portugal, Poland ...) in an unsupervised manner
+(i.e. without the intervention of a human), simply by interpreting
+automatically of the texts provided as input. This allows the extraction
+of structured knowledge on a given domain or activity simply
+by analyzing the descriptions in natural language. An evolution of this
+system allows, in a semi-supervised mode, to answer independently
+to users' questions in natural language, using 
+automatically-learned knowledge. During the experimentation, the approach
+has been applied to open data on the expenditure of governments of different countries,
+obtaining encouraging results. A similar technique has been
+also applied to the documentation and code of software libraries
+(in Java language), creating a queryable ontology (CodeOntology)
+for various purposes, such as software engineering or Computational question answering.
 
-La quinta linea di lavoro comprende le tecniche per la **dimostrazione di 
-proprietà** sui dati raccolti, in modo da rendere più semplice, 
-efficace e sicuro il salvataggio e l’analisi dei dati. I risultati 
-in questa linea hanno portato allo sviluppo di tecniche per individuare 
-analogie tra le varie informazioni, in modo da eliminare inutili duplicazioni. 
-Questo ha consentito di comprendere come differenti alternative nelle 
-varie evoluzioni possano essere compattate, introducendo il concetto di 
-merging relation che per ora ha trovato applicazione nell’ambito delle Reti 
-di Petri. Infine, ci si è concentrati nella definizione di modelli per la 
-dimostrazione di proprietà formali relative alla correttezza e completezza 
-di contratti per l’utilizzo di dati e l’esecuzione dei servizi, che consente 
-di offrire garanzie dimostrabili agli utenti dei servizi stessi. 
+The fifth thread of work includes techniques for the ** demonstration of
+ownership ** on the collected data , in order to make it easier to save and analyse data effectively. The results
+in this line have led to the development of techniques to identify
+analogies between the various pieces of information, so as to eliminate unnecessary duplication.
+This allowed us to understand how different alternatives in
+various evolutions can be compacted, introducing the concept of
+merging relations, which has so far found application in Petri Nets. Finally, we focused on defining models for the
+demonstration of formal properties related to correctness and completeness
+of contracts for the use of data and the execution of services, which allows
+proving properties to the service users.
 
 
 
 <a id="gruppo"></a>
 
-##  Il gruppo di ricerca
-Il progetto è stato realizzato all'interno del [Dipartimento di Matematica e Informatica](https://dmi.unica.it/).
-Il gruppo di ricerca è formato dai seguenti professori:
-* **Lucio Davide Spano.** Interazione Uomo Macchina. Coordinatore del progetto.
-* **Barbara Pes.** Data Mining. Estrazione della conoscenza. 
-* **Daniele Riboni.** Pervasive Computing. Prossemica e riconoscimento delle attività.
-* **Riccardo Scateni.** Computer Grafica. Geometria Computazionale. 
-* **Giovanni Puglisi.** Computer Vision. Elaborazione video e immagini. 
-* **Diego Reforgiato.** Sentiment Analysis. Riconoscimento emozioni. 
-* **Maurizio Atzori.** Web Semantico. Rappresentazione della conoscenza e analisi linguaggio naturale.
-* **Massimo Bartoletti.** Sicurezza. Sicurezza nello scambio di informazioni. 
-* **Michele Pinna.** Metodi Formali. Computazioni distribuite.  
+##  The Research Group
+The project was developed in the [Department of Mathematics and Computer Science, University of Cagliari, Italy.](https://dmi.unica.it/).
+The research group includes the following professors:
+* **Lucio Davide Spano.** Human Computer Interaction. Principal Investigator.
+* **Barbara Pes.** Data Mining. Knowledge Extraction. 
+* **Daniele Riboni.** Pervasive Computing. Proxemics and Activity Recognition.
+* **Riccardo Scateni.** Computer Graphics. Geometry Processing. 
+* **Giovanni Puglisi.** Computer Vision. Video and Image processing. 
+* **Diego Reforgiato.** Sentiment Analysis. Emotion Recognition. 
+* **Maurizio Atzori.** Semantic Web. Knowledge Representation and Natural Language Processing.
+* **Massimo Bartoletti.** Security. Trustworthy Services . 
+* **Michele Pinna.** Formal Methods. Parallel Computing.  
 
 <a id="pubblicazioni"></a>
 
-##  Pubblicazioni supportate dal progetto
+##  Project Publications
 ### 2019
 * 	Alessandro Carcangiu, Lucio Davide Spano, Giorgio Fumera, Fabio Roli.
 _DEICTIC: A compositional and declarative gesture description based on hidden markov models._ 
