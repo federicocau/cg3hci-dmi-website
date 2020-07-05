@@ -5,6 +5,8 @@ title: 'User Interface Technologies (UIT)'
 ##User Interface Technologies (UIT)
 _The course is available only in English_
 
+[Best projects archive](UIT-project-archive/default.md)
+
 The course provides the knowledge for understanding and exploiting different 
 technologies for developing user interfaces, starting from the simplest ones 
 (form-based on a single device) to the more complex ones (multi-device, 
