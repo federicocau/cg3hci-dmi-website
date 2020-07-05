@@ -9,217 +9,163 @@ visible: false
 </header>
 </div>
 
-![Logo Regione Sardegna e Fondazione di Sardegna](img/d3p2-logo.png)
+![Logo of the Sardinian Regional Government](img/d3p2-logo.png)
 
-L’obiettivo principale del progetto D3-P2 è quello di studiare un sistema editore per contenuti digitali immersivi, 
-la cui creazione e fruizione sia supportata tramite tecnologie web. Tramite questo supporto, gli utenti che non hanno 
-conoscenze specifiche di 3D, di realtà virtuale (VR) o di realtà aumentata (AR) possono di creare presentazioni che 
-utilizzino dispositivi di interazione avanzati, ormai alla portata del mercato di massa.
+The main objective of the D3-P2 project is to study a authoring system for immersive digital content,
+supporting its creation and editing through web technologies. Through this support, users without
+specific knowledge of 3D, virtual reality (VR) or augmented reality (AR) can create presentations that
+use advanced interaction devices, now available for the mass market.
 
-Il progetto è stato finanziato dalla [Regione Autonoma della Sardegna](https://www.regione.sardegna.it/), è iniziato nell'aprile 2017 e 
-si è concluso nell'aprile 2019.
+The project has been funded by the [Sardinian Regional Government](https://www.regione.sardegna.it/), it started 
+in April 2017 and ended in April 2019.
 
-##Sommario
-1. [Obiettivi](#obiettivi)
-2. [Risultati](#risultati)
-3. [Il gruppo di ricerca](#gruppo)
-4. [Video dimostrativi](#video) 
-5. [Pubblicazioni](#pubblicazioni)
+##Outline
+1. [Objectives](#obiettivi)
+2. [Results](#risultati)
+3. [The Research Group](#gruppo)
+4. [Demonstration Videos](#video) 
+5. [Papers](#pubblicazioni)
 
 <a id="obiettivi"></a>
 
-## Obiettivi del progetto
-L’entrata nel mercato di massa di hardware a basso costo che permette operazioni costose in passato, come 
-visualizzazione di ambienti virtuali in stereoscopia, apre la strada alla fruizione di contenuti immersivi via web. 
-Ma la storia del web insegna che gli utenti non vogliono solo essere dei fruitori passivi di contenuto, ma anche e 
-soprattutto autori creativi. La barriera rimane però la conoscenza tecnica necessaria per manipolare le nuove tecnologie.
-L’obiettivo principale del progetto D3-P2 è quello di studiare un sistema editore per contenuti digitali immersivi, 
-la cui creazione e fruizione sia supportata tramite tecnologie web. Tramite questo supporto, gli utenti che non hanno 
-conoscenze specifiche di 3D, di realtà virtuale (VR) o di realtà aumentata (AR) possono di creare presentazioni che 
-utilizzino dispositivi di interazione avanzati, ormai alla portata del mercato di massa.
+## Project Objectives
+The entry into the mass market of low-cost hardware allows  operations that in the past were expensive, such as viewing virtual environments in stereoscopy and it opens the way to the use of immersive content on the web. But the history of the web teaches us that users do not only want to be passive consumers of content, but also and above all they like to be creative authors. However, the barrier remains the technical knowledge needed to manipulate new technologies. The main objective of the D3-P2 project is to study an authoring system for immersive digital content, supporting the creation and use through web technologies. Through this support, users not having specific knowledge of 3D, virtual reality (VR) or augmented reality (AR) can create presentations that use advanced interaction devices, now available to the mass market.
 
-Dal punto di vista scientifico, il progetto si è proposto di risolvere due problemi di ricerca aperti:
-* Fornire delle rappresentazioni degli oggetti da includere nella scena immersiva, del controllo delle loro proprietà 
-statiche e interattive, che siano semplici da comprendere per l’utente ma allo stesso tempo abbastanza espressive, per 
-garantire la qualità dei contenuti creati.
-* Fornire un supporto dei diversi dispositivi e delle loro differenti capacità interattive, tramite l’adattamento 
-delle presentazioni alla configurazione attualmente in uso dall’utente. La soluzione a questo problema è un avanzamento 
-nello stato dell’arte nell’ambito della definizione di regole per interfacce adattive, che permettano di riconfigurare 
-il supporto all’input dell’utente sulla base delle periferiche disponibili, nonché il rendering della scena in base alle 
-potenzialità grafiche del supporto di visualizzazione. 
+From a scientific point of view, the project aimed to solve two open research problems:
+* Provide representations of the objects to be included in an immersive scene, the control of the static and interactive properties, simple for being understandable to the end-user but at the same time expressive enough, to guarantee the quality of the content created.
+* Provide support for the various devices and their different interactive capabilities, by adapting the presentations to the configuration currently in use by the user. The solution to this problem is a state-of-the-art advancement in the definition of rules for adaptive interfaces, which allow you to reconfigure user input support based on available peripherals, as well as rendering the scene based on the graphic potential of the display support.
 
-Gli obiettivi generali del progetto sono stati i seguenti:
-1.	Creazione di contenuti immersivi tramite una combinazione di oggetti tridimensionali e contenuti multimediali, 
-manipolazione e modifica degli stessi, sia in modalità di progettazione che nella modalità di fruizione dell’ambiente 
-immersivo.
-2.	Definizione del comportamento interattivo degli oggetti inseriti nell’ambiente, senza assumere nessuna conoscenza 
-di linguaggi di programmazione da parte dell’autore.
-3.	Supporto all’acquisizione ed alla esportazione di oggetti dall’ambiente virtuale a quello reale tramite 
-scansione e stampa 3D
-4.	Adattamento della presentazione dei contenuti e delle modalità di interazione previste creati in base ai 
-dispositivi utilizzati per la fruizione.
-
+The general objectives of the project were the following:
+1. Creation of immersive content through a combination of three-dimensional objects and multimedia contents, their manipulation and modification, both in the design mode and in the mode of use of the immersive environment.
+2. Definition of the interactive behavior of the objects inserted in the environment, without assuming any knowledge of programming languages ​​by the author.
+3. Support for the acquisition and export of objects from the virtual environment to the real one by scanning and 3D printing
+4. Adaptation of the presentation to the contents and the methods of interaction to the current devices.
 
 <a id="risultati"></a>
 
-## Risultati
+## Results
 
-###Obiettivo 1: Creazione dei contenuti immersivi
-Per quanto riguarda il supporto alla creazione di contenuti immersivi, il progetto si è focalizzato nella creazione di 
-diverse estensioni della libreria per sviluppatori open source [A-Frame](http://aframe.io), in modo da supportare 
-l’interazione con utenti che non hanno esperienza di programmazione. 
-Per quanto riguarda la modalità di progettazione, è stato volto un lavoro di categorizzazione e di 
-etichettatura delle varie proprietà che descrivono le forme interattive, per adattarle al vocabolario 
-utilizzato da utenti non esperti. Infine, è stato costruita un’interfaccia web che permette la modifica di 
-queste proprietà, tramite interattori standard WIMP. 
-La parte più innovativa nel raggiungimento di questo obiettivo, è sicuramente quella della modifica delle 
-proprietà degli oggetti in modalità immersiva.  Ci siamo dapprima concentrati sulle modalità di manipolazione 
-degli oggetti interattivi nell’ambiente virtuale tramite gesti. Il primo problema affrontato è stato quello della 
-definizione di gesti interattivi con un linguaggio comprensibile ai designer e sviluppatori, che fornisse però un 
-supporto robusto al riconoscimento. Risultato di questa ricerca è stata la definizione di DEICTIC, che permette di 
-generare classificatori precisi a partire dalla descrizione del gesto sotto forma di semplici primitive geometriche 
-(linee, punti o archi).  Il metodo ha dimostrato un ottimo livello di espressività e un alto tasso di riconoscimento. 
-In [Figura 1](#figura1) mostriamo la matrice di confusione nel riconoscimento di due dataset molto utilizzati in letteratura, 
-modellati con l’approccio studiato.
-L’approccio è stato validato anche con i programmatori, dimostrandosi più semplice e rapido da utilizzare rispetto al 
-tradizionale modello a eventi. 
+###Objective 1: Authoring immersive contents
+Regarding the support for authoring immersive content, the project focused on the creation of various extensions for the open source library [A-Frame](http://aframe.io), to support the interaction with users without programming experience.
+Concerning the design method, we proposed a categorization and labeling of the various properties describing the interactive actions, adapting them to the vocabulary of non-expert users. Finally, we created a web interface for the modification of these properties, through standard WIMP interactors.
+The most innovative part in achieving this goal is certainly changing the objects properties in an immersive way. We first focused on how to manipulate interactive objects in the virtual environment through gestures. The first problem dealt with was defining interactive gestures in a language understandable to designers and developers, and providing a robust support for recognition. The result of this research was the definition of DEICTIC, which allows generating precise classifiers starting from the description of a gesture through simple geometric primitives (lines, points or arcs). The method demonstrated an excellent level of expressiveness and a high recognition rate.
+In [Figure 1](#figura1) we show the confusion matrix in the recognition of two datasets widely used in literature, modeled with the proposed approach. We also validated the technique with programmers, and it proved easier and faster to use than the traditional event model. 
 
 <a id="figura1"></a>
 
-![Figura 1](img/figura1.png)
+![Figure 1](img/figura1.png)
 
-*Figura 1: risultati del riconoscimento del dataset 1$ (5280 sequenze rappresentati 16 gesti) e del dataset 
-N$ (8400 sequenze rappresentati 14 gesti) tramite la modellazione DEICTIC*
+*Figure 1: results of the recognition of the 1$ dataset (5280 sequences representing 16 gestures) and of the dataset
+ N$ (8400 sequences representing 14 gestures) through DEICTIC*
 
-Sfruttando il supporto a gesti interattivi è stato possibile costruire l’ambiente di manipolazione dei contenuti 
-interattivi in modalità immersiva, che ha la novità di essere stata realizzata sfruttando tecnologie web. 
-In particolare, sono stati sviluppati e rilasciati diversi plugin per la libreria A-Frame che permettono di modificare, 
-tramite gesti interattivi, le proprietà degli oggetti utilizzando il visore VR ([Codice](https://github.com/unica-tesi-hci)).
-Il primo plugin permette di selezionare a distanza un oggetto nella scena, avvicinarlo all’utente per modificarlo 
-(scalarlo e/o ruotarlo) e riposizionarlo alla posizione di partenza. Il gesto imita le movenze di Spider-Man per 
-lanciare una ragnatela (si veda la rappresentazione del braccio virtuale in [Figura 2](#figura2)), assimilata con una metafora al 
-raggio di selezione dell’oggetto. La traslazione è invece una semplice gesto di chiusura della mano per 
-afferrare l’oggetto.
+By taking advantage of the support for interactive gestures, it was possible to build the content manipulation environment
+interactive in immersive mode, which has the novelty of using web technologies.
+In particular, we developed released several plugins for the A-Frame library that allow modifying,
+through interactive gestures, the properties of the objects using the VR viewer ([Code](https://github.com/unica-tesi-hci)).
+The first plugin allows you to remotely select an object in the scene, bringing it closer to the user to edit
+(scaling and / or rotating it) and reposition it to the starting position. The gesture mimics Spider-Man's movements for
+launch a spider web (see the representation of the virtual arm in [Figure 2](#figura2)), associated with a metaphor casting
+a ray to object. The translation is instead a simple gesture of closing the hand for grasp the object.
 
 
 <a id="figura2"></a>
 
-![Figura 2](img/figura2a.png)
+![Figure 2](img/figura2a.png)
 ![](img/figura2b.png)
 
 
-*Figura 2: Selezione, scalatura e rotazione dall’interno dell’ambiente virtuale*
+*Figure 2: Selection, scaling and rotation from within the virtual environment*
 
-Il secondo plugin permette invece di modificare l’illuminazione della scena, posizionando diverse luci all’interno 
-dell’ambiente, controllandone la tipologia (ambiente, spot o direzionale), il colore e la luminosità ([Figura 3](#figura3)).
+The second plugin instead allows changing the lighting of the scene, placing different lights inside
+of the environment, checking its type (environment, spot or directional), color and brightness ([Figure 3](#figura3)).
 
 <a id="figura3"></a>
 
 ![Figura 3](img/figura3a.png)
 
-###Obiettivo 2: Definizione del comportamento interattivo degli oggetti
-Anche per questo obiettivo si sono suddivise le funzionalità a seconda della loro complessità. Le animazioni, che sono 
-comportamento interattivo più semplice da modellare e più frequente nelle scene virtuali, è supportato sia in modalità 
-di progettazione che in modalità immersiva. 
-La definizione delle animazioni in modalità immersiva permette la creazione di diverse pose-chiave per lo stesso oggetto. 
-L’utente, oltre a aggiungere o rimuovere queste pose, può selezionare quelle esistenti e specificare, 
-tramite manipolazione, il valore di diversi attributi dell’oggetto tridimensionale (posizione, scalatura, rotazione, 
-colore ecc.). Durante l’esecuzione dell’animazione, il sistema interpolerà il valore degli attributi della posa di 
-indice *i* verso i valori della posa *i+1*. La [Figura 4](#figura4) mostra un esempio di definizione di una animazione.
+###Objective 2: Defining the dynamic object behaviour
+Also for this objective, we divided the functions according to their complexity. We support the animations, which are
+simpler to model and a frequent interactive behavior in virtual scenes, both in design and in immersive mode.
+The definition of the animations in immersive mode allows creating of different key poses for the same object.
+In addition to adding or removing these poses, the user can select existing ones and specify,
+through manipulation, the value of different attributes of the three-dimensional object (position, scaling, rotation,
+color etc.). During the execution of the animation, the system interpolates the value of the attributes from the pose of
+index *i* towards the values of the pose *i + 1*. [Figure 4](#figura4) shows a sample animation definition.
 
 <a id="figura4"></a>
 
-![Figura 4](img/figura4.png)
+![Figure 4](img/figura4.png)
 
-*Figura 4: definizione di una animazione in modalità immersiva. L’utente può utilizzare le maniglie per modificare 
-la posa corrente. Le altre pose sono visualizzate in trasparenza*
+*Figure 4: definition of an animation in immersive mode. The user can use the handles to modify the current pose. The other poses are displayed in transparency*
 
 
-I comportamenti definibili in modalità progettazione sono più complessi. Abbiamo utilizzato un sistema a regole la cui 
-efficacia è documentata in letteratura. Si utilizzano una serie di regole del tipo Evento-Conditione-Azione, 
-da mostrare tramite una rappresentazione semplificata in linguaggio naturale. Le regole hanno tutte la seguente sintassi:
+The behaviors we can define in design mode are more complex. We used a rules system whose effectiveness is documented in the literature. We use a series of rules of the type Event-Condition-Action, to be shown through a simplified representation in natural language. The rules all have the following syntax:
 
 ~~~~
-Quando <soggetto> <azione> [oggetto/quantità] 
-[se condizione] 
-allora <soggetto> <azione> [oggetto/quantità]
+When <subject> <action> [object/value] 
+[if condition] 
+then <subject> <action> [object/value]
 ~~~~
 
-Con la parte *quando*, l’utente stabilisce la causa per l’azione che modifica lo stato della scena. Con la parte opzionale 
-*se*, si stabiliscono invece delle condizioni che devono essere verificate per intraprendere l’azione. 
-La parte *allora* stabilisce quali sia l’azione o le azioni da eseguire. 
+Through the *when* part, the user establishes the cause for the action that changes the state of the scene. With the optional part
+*if*, instead, s/he established the constraints to take action.
+The *then* part determines the action or actions to be performed.
 
-##Obiettivo 3: Acquisizione e esportazione di oggetti 3D
-Abbiamo creato una libreria lato server che permette di acquisire scansioni tridimensionali di oggetti tramite Microsoft 
-Kinect. Il server include delle procedure automatiche di semplificazione della geometria che permettono la 
-visualizzazione del risultato su browser. Inoltre, abbiamo sviluppato uno strumento di modellazione tridimensionale 
-per realtà aumentata per Microsoft Hololens, un visore non occlusivo messo a punto da Microsoft. Il modellatore permette 
-di creare solo forme che rispettano i vincoli di fabbricabilità per stampanti 3D. L’interazione è basata su gesture 
-riconosciute tramite Leap Motion. Il modellatore segue il paradigma box modeling, di cui integra le principali funzionalità. 
-Ciascuna modifica è sottoposta ad un test di validità che previene la generazione di conformazioni non fabbricabili 
-come le autointersezioni o zone prive di volume (bidimensionali). 
+## Objective 3: Acquisition and export of 3D objects
+We created a server-side library that allows to acquire three-dimensional scans of objects through Microsoft Kinect. The server includes automatic geometry simplification procedures supporting the display of the result on a browser. In addition, we have developed a three-dimensional modeling tool for augmented reality for Microsoft Hololens, a non-occlusive head mounted display developed by Microsoft. The modeler allows creating shapes that respect the fabrication constraints for 3D printers. The interaction exploits gestures recognized through Leap Motion. The modeler follows the box modeling paradigm, of which it integrates the main functions. Each modification is subject to a validity test which prevents the generation 3D-printable configurations such as self-intersections or areas without volume (two-dimensional).
 
 
 <a id="figura5"></a>
 
-![Figura 5](img/figura5.png)
+![Figure 5](img/figura5.png)
 
-*Figura 5: Sequenza di modellazione di un tavolo in realtà aumentata su visore Microsoft Hololens*
+*Figure 5: Modeling sequence of a table in augmented reality using Microsoft Hololens*
 
 
-###Obiettivo 4: Adattamento alla modalità di interazione
-Abbiamo studiato un pattern di realizzazione di applicazioni che sfruttano la realtà virtuale sul web che permetta un 
-adattamento opportunistico ai dispositivi disponibili sul sistema in uso. Questo è un problema molto importante sul web, 
-dove lo stesso contenuto deve essere adattato a diverse configurazioni hardware e software. Abbiamo generalizzato la 
-soluzione applicata al nostro editor di contenuti tridimensionali trasformandola in un framework che risolve diversi 
-problemi noti nel campo: 1) gestione del rendering 3D della scena, 2) supporto a diversi disposivi di output 
-(schermi, telefonini, visori), 3) gestione dell’orientamento dello schermo e/o del visore, 4) ricezione dell’input 
-proveniente da diversi dispositivi e nodi di calcolo sul browser, 5) distribuzione dell’input e dell’output si diversi 
-dispositivi, 6) utilizzo eventi astratti rispetto al dispositivo  di interazione. 
-L’applicazione del framework è stata validata con uno studio utente, che ne ha dimostrato la flessibilità nel 
-reimplementare in modo generico diverse metafore di interazione con gli oggetti in realtà virtuale, utilizzando 
-diversi dispositivi di interazione.
+### Objective 4: Interaction Adaptation
+We have studied a pattern for developing applications that exploit virtual reality on the web allowing an opportunistic adaptation to the devices available on the system in use. This is a very important feature on the web, where the same content must be adapted to different hardware and software configurations. We generalized the solution applied to our three-dimensional content editor transforming it into a framework that solves several known problems in the field: 1) the management of the scene 3D rendering, 2) the support for various output devices (screens, mobile phones, viewers), and 3) the management of the orientation of the screen and/or HMD, 4) receiving the input  from different devices and computation nodes on the browser, 5) the distribution of different input and output devices, 6) the use of abstract events with respect to the interaction device.
+The framework application was validated with a user study, which demonstrated its flexibility reimplementing different metaphors for interacting with objects in virtual reality, using different interaction devices.
 
 
 <a id="figura6"></a>
 
-![Figura 6](img/figura6.png)
+![Figure 6](img/figura6.png)
 
-*Figura 6: Esempio di adattamento dell’interazione alla metafora di interazione. Parte alta (a): scalatura di un oggetto 
-utilizzando handle multipli: l’utente afferra una maglia e la muove per cambiare la dimensione dell’oggetto. 
-Parte bassa (b): scalatura di un oggetto tramite la metafora handlebar. L’utente afferra una barra virtuale con 
-due mani per esempio lungo l’asse X e incrementa la distanza fra le mani per incrementare la dimensione dell’oggetto*
+*Figure 6: Example of adaptation of the interaction to the device. Upper part (a): scaling of an object
+ using multiple handles: the user grabs a mesh and moves it to change the size of the object.
+ Lower part (b): scaling of an object using the handlebar metaphor. The user grabs a virtual bar with
+ two hands for example along the X axis and increases the distance between the hands to increase the size of the object*
 
 
 
 <a id="gruppo"></a>
 
-## Il gruppo di ricerca
-* **Lucio Davide Spano.** Coordinatore del progetto.
-* **Fabio Sorrentino.** Assegnista di ricerca.
-* **Alessandro Carcangiu.** Dottorando in Informatica.
-* **Alessio Murru.** Dottorando in Informatica.
-* **Matteo Serpi.** Tesista Magistrale.
-* **Elisa Pau.** Tesista Magistrale.
-* **Francesca Cella.** Tesista Triennale.
-* **Roberta Galici.** Tesista Triennale.
-* **Laura Ordile.** Tesista Triennale.
-* **Riccardo Balia.** Tesista Triennale.
+## Research Group
+* **Lucio Davide Spano.** Principal Investigator.
+* **Fabio Sorrentino.** Research Fellow.
+* **Alessandro Carcangiu.** PhD Student.
+* **Alessio Murru.** PhD Student.
+* **Matteo Serpi.** Master Student.
+* **Elisa Pau.** Master Student.
+* **Francesca Cella.** Bachelor Student.
+* **Roberta Galici.** Bachelor Student.
+* **Laura Ordile.** Bachelor Student.
+* **Riccardo Balia.** Bachelor Student.
 
 <a id="video"></a>
 
-## Video dimostrativi
+## Demo Videos
 
 ###Web5VR
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/SE8_lN3pS4M"></iframe>
 
-###Selezione, manipolazione e animazioni
+###Selection, manipulation and animations
 <iframe width="420" height="315" src="https://www.youtube.com/embed/BdfmoxJNAMc"></iframe>
 
 <a id="pubblicazioni"></a>
 
-## Pubblicazioni supportate dal progetto
+## Project Publications
 * Alessandro Carcangiu, Lucio Davide Spano, Giorgio Fumera, Fabio Roli: DEICTIC: A compositional and declarative gesture description based on hidden markov models. Int. J. Hum.-Comput. Stud. 122: 113-132 (2019)
 * Alessandro Carcangiu, Lucio Davide Spano: Integrating declarative models and HMMs for online gesture recognition. IUI Companion, ACM. 2019: 87-88
 * Fabio Sorrentino and Lucio Davide Spano. Post-it notes: supporting teachers in authoring vocabulary game contents. Multimed Tools Appl (2019). https://doi.org/10.1007/s11042-019-7604-6

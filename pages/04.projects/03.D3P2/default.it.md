@@ -9,7 +9,7 @@ visible: false
 </header>
 </div>
 
-![Logo Regione Sardegna e Fondazione di Sardegna](img/d3p2-logo.png)
+![Logo Regione Sardegna](img/d3p2-logo.png)
 
 L’obiettivo principale del progetto D3-P2 è quello di studiare un sistema editore per contenuti digitali immersivi, 
 la cui creazione e fruizione sia supportata tramite tecnologie web. Tramite questo supporto, gli utenti che non hanno 
