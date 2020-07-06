@@ -1,7 +1,9 @@
 ---
 title: Home
-body_classes: title-center title-h1h2 
+body_classes: 'title-center title-h1h2'
+override_default_title: CG3HCI
 ---
+
 <div style="text-align: center">
 <img src="/lab/user/pages/01.home/img/logocg3hci.png" alt="CG3HCI logo" />
 </div>
