@@ -2,6 +2,7 @@
 title: Home
 body_classes: 'title-center title-h1h2'
 override_default_title: CG3HCI
+override_default_desc: 'Website of the CG3HCI lab, the Computer Graphics and Human Computer Interaction group of the University of Cagliari, Italy'
 ---
 
 <div style="text-align: center">
