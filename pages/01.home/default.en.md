@@ -1,5 +1,7 @@
 ---
 title: Home
+metadata:
+    google-site-verification: Wykv4f2d9sKJ3VU_95Mih5Kqe17CzJgkMedTZ7s3Bw8
 body_classes: 'title-center title-h1h2'
 override_default_title: CG3HCI
 override_default_desc: 'Website of the CG3HCI lab, the Computer Graphics and Human Computer Interaction group of the University of Cagliari, Italy'
